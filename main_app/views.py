@@ -102,7 +102,7 @@ def signup(request):
 
 class CharacterCreate(LoginRequiredMixin, CreateView):
   model = Character
-  fields = ['name', 'description', 'level', 'origin']
+  fields = ['name', 'description', 'alias', 'origin']
   success_url = '/characters/'
 
   def form_valid(self, form):
@@ -112,7 +112,7 @@ class CharacterCreate(LoginRequiredMixin, CreateView):
 class CharacterUpdate(LoginRequiredMixin, UpdateView):
   model = Character
 
-  fields = [ 'name', 'description', 'level']
+  fields = [ 'name', 'description', 'alias', 'origin']
 
 class CharacterDelete(LoginRequiredMixin, DeleteView):
   model = Character

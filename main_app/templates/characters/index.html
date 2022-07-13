@@ -9,10 +9,10 @@
       <span class="card-title">{{ character.name }}</span>
       <p>Character: {{ character.alias }}</p>
       <p>Description: {{ character.description }}</p>
-      {% if character.level > 0 %}
-      <p>Level: {{ character.level }}</p>
+      {% if character.alias > 0 %}
+      <p>Alias: {{ character.alias }}</p>
       {% else %}
-      <p>Origin: "insert specifc Movie/ep"</p>
+      <p>Origin:{{character.origin}} </p>
       {% endif %}
     </div>
   </a>

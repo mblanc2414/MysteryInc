@@ -13,12 +13,12 @@ MASKS = (
 class Character(models.Model):
   name= models.CharField(max_length=100)
   description = models.CharField(max_length=100)
-  level = models.TextField(max_length=250)
-  origin = models.IntegerField()
+  alias = models.TextField(max_length=250)
+  origin = models.TextField(max_length=250)
   
   user = models.ForeignKey(User, on_delete=models.CASCADE)
 
-  def fed_for_today(self):
+  def unmasked_for_today(self):
     return self.unmasking_set.filter(date=date.today()).count() >= len(MASKS)
 
   def __str__(self):
