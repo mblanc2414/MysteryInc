@@ -13,7 +13,7 @@ import uuid
 import boto3
 
 S3_BASE_URL = 'https://s3.us-east-1.amazonaws.com/'
-BUCKET = 'mysteryinc-24'
+BUCKET = 'mysteryincapp'
 
 
 def home(request):
