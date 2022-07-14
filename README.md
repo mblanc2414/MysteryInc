@@ -22,8 +22,8 @@ User interface can be customized by specific scooby doo movies
 
 
 
-![Mystery Universe]((https://i.imgur.com/Yg4Nq5m.png))
-![About]((https://i.imgur.com/Cgj02Mk.png))
+![Mystery Universe](https://i.imgur.com/Yg4Nq5m.png)
+![About](https://i.imgur.com/Cgj02Mk.png)
 ![Characters](https://i.imgur.com/AsU9iwy.png)
 ![Create](https://i.imgur.com/OHYUPLp.png)
 ![Edit](https://i.imgur.com/HNnfCG7.png)
