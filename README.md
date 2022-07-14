@@ -11,6 +11,8 @@ To make this website I used: <br>
 -jQuery<br>
 -Django
 -Python
+-Postresql
+
 
 
 
