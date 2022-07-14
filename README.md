@@ -14,7 +14,8 @@ To make this website I used: <br>
 
 <h1>MYSTERY UNIVERSE:</h1>
  [Website Link](https://mysteryincuniverse.herokuapp.com/)
-
+<h3> TRELLO/ERD <H3>
+ https://trello.com/invite/b/d0aqxpz6/0db6fa2264dc136579d90b4ece32053c/scooby-doo-villains-incorporated
 <h1>FUTURE FUNCTIONATIONALITY:</h1>
 Villains Directory
 Scooby Doo Comics Section that changes the entire user interface
