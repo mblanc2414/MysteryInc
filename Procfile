@@ -1,2 +1,2 @@
 
-web: gunicorn <mysteryinc>.wsgi
+web: gunicorn mysteryinc.wsgi
